@@ -1,0 +1,11 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+    <h2>Find items by Category</h2>
+  
+      {% for category in dist_categories %}
+      <a href="{% url 'speccat' catname=category %}">
+      <li>{{ category }} </li>
+      {% endfor %}
+
+{% endblock %}

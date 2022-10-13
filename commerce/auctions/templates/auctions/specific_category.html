@@ -1,0 +1,11 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+  <h2>See items in {{catname}}</h2>
+
+  {% for item in catreturn %}
+  <a href= "{% url 'itemize' itemid=item.id %}">
+  <li> {{ item }} </li>
+  {% endfor %}
+
+{% endblock %}

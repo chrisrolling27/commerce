@@ -1,0 +1,9 @@
+chrisrolling
+chrisrolling27@gmail.com
+keyboardwarrior
+
+adminguy
+chrisrolling27@gmail.com
+keyboardwarrior
+
+https://docs.djangoproject.com/en/dev/faq/admin/#i-can-t-log-in-when-i-enter-a-valid-username-and-password-it-just-brings-up-the-login-page-again-with-no-error-messages
